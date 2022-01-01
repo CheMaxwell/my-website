@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="wrapper">
+        <!-- Contacts section -->
+        <section class="contacts-section">
+            <a href="tel:+380956995853" class="phone-link"><img src="./img/icons/phone.jpg" class="phone-icon" alt="phone-link">
+            </a>
+            <a href="https://t.me/Che_Maxwell" class="telegram-link"><img src="./img/icons/telega.jpg" class="telegram-icon" alt="telegram-link">
+            </a>
+            <a href="viber://chat?number=%2B3809569965853" class="viber-link"><img src="./img/icons/viber.jpg" class="viber-icon" alt="viber-link">
+            </a>
+            <a href="tel:+380956995853" class="phone-number-link">
+                +380956995853
+            </a>
+        </section>
+        <!-- Experience section -->
+        <section class="experience-section">
+            <img src="./img/icons/my foto.jpg" alt="My photo" class="my-photo">
+            <div>
+                <a href="https://www.facebook.com/maxim.odintsov.1" class="fb-link">
+                <img src="./img/icons/fb-icon.svg" alt="my fb-link" class="fb-icon">
+                </a>
+                <a href="https://www.linkedin.com/in/max-odyntsov-994106216/" class="linkedin-link">
+                <img src="./img/icons/linkedin-icon.svg" alt="my linkedin-link" class="linkedin-icon">
+                </a>
+            </div>
+            <div class="experience-description">
+                <p class="experience-description-text experience-description-text-first">32 готовых проекта</p>
+                <p class="experience-description-text">2 года опыта</p>
+            </div>
+            <div class="tech-skills">
+                <img src="./img/icons/java-icon.jpg" alt="" class="icon-exp java-icon">
+                <img src="./img/icons/js-icon.svg" alt="" class="icon-exp js-icon">
+                <img src="./img/icons/sql-icon.jpg" alt="" class="icon-exp sql-icon">
+                <img src="./img/icons/react-icon.svg" alt="" class="icon-exp react-icon">
+            </div>
+            <a class="my-projects-link" href="https://github.com/">Projects</a>
+        
+        </section>
+        <!-- My info section -->
+        <section class="my-info-section">
+            <h2 class="my-name">Привет! Я - Макс.</h2>
+            <h1 class="my-profession">Я делаю сайты</h1>
+            <p class="my-location">Живу под Харьковом</p>
+            <p class="my-workstyle">Работаю удалённо</p>
+
+            <p class="my-description">Я - человек-оркестр. В одиночку заменяю целую веб-студию.</p>
+
+            <div>
+                <p class="my-skills-title">Умею:</p>
+                <ul class="my-skills-list">
+                    <li class="my-skills-item">
+                        <p class="my-skill-text">Управлять IT-проектами и командами;</p></li>
+                    <li class="my-skills-item">
+                        <p class="my-skill-text">Senior Front End разработчик;</p></li>
+                    <li class="my-skills-item">
+                        <p class="my-skill-text">Middle Back End разработчик;</p></li>
+                    <li class="my-skills-item">
+                        <p class="my-skill-text">Могу проконтролировать качество своего или вашего проекта, как QA - специалист.</p></li>
+                </ul>
+            </div>
+        </section>
+        <!-- Calculator section -->
+        <section class="project-price">
+            <form action="#" class="project-price-form">
+                <h4 class="project-price-raschitaj">Расчитай стоимость проекта</h4>
+                <div class="project-type-container">
+                    <label for="project-type" class="tip-saita">Тип сайта</label>
+                    <select name="project-type" id="project-type" class="project-price-select">
+                        <option value="Landing-page">Landing page</option>
+                        <option selected value="Online-Store">Online Store</option>
+                        <option value="Web-Application">Web Application</option>
+                        <option value="Mobile-Application">Mobile Application</option>
+                    </select>
+                </div>
+                <div class="activity-type-container">
+                    <p class="tipy-rabot">Типы работ</p>
+                    <div class="activity-type-item">
+                        <input type="checkbox" name="project-management" id="project-management" class="activity-type-checkbox">
+                        <label for="project-management" class="activity-type-text">Project Management</label>
+                    </div>
+                    <div class="activity-type-item">
+                        <input checked type="checkbox" name="design" id="design" class="activity-type-checkbox">
+                        <label for="design" class="activity-type-text">Design</label>
+                    </div>
+                    <div class="activity-type-item">    
+                        <input checked type="checkbox" name="developer" id="developer" class="activity-type-checkbox">
+                        <label for="developer" class="activity-type-text">Developer</label>
+                    </div>
+                    <div class="activity-type-item">
+                        <input type="checkbox" name="qa" id="qa" class="activity-type-checkbox">
+                        <label for="qa" class="activity-type-text">QA</label>
+                    </div>
+                
+                </div>
+                <div class="project-price-container">
+                    <p class="project-price-form-title">Стоимость</p>
+                    <p class="project-price-sum"><span class="project-price-sum-doll">$ </span>1800</p>
+                </div>
+                <div class="project-price-button-container"> 
+                    <button class="project-price-button">Отправить запрос</button>
+                </div>
+            </form>
+        </section>
+    </div>
+    <!-- Modals section -->
+    <div class="modal-bgd">
+        <div class="modal-container">
+            <button class="close-cross">
+                <img src="./img/icons/cross.jpg" alt="close cross" class="close-cross-icon"></button>
+            <img src="./img/icons/mail-icon.svg" alt="mail-icon" class="mail-icon">
+            <h4 class="thanks-svyazj">Спасибо за запрос,я свяжусь <br> с Вами в течении часа</h4>
+            
+            <form action="#" class="modal-container-form">
+                <label for="user-email" class="vvedite-email">Введите Ваш E-mail</label>
+                <input type="email" name="user-email" id="user-email" class="user-email" placeholder="Укажите E-mail для связи">
+                <button type="submit" class="otpravitj-button">Отправить</button>
+            </form>         
+        </div>
+    </div> 
+    <div class="modal-bgd">
+        <div class="modal-container-two">
+            <button class="close-cross">
+                <img src="./img/icons/cross.jpg" alt="close cross" class="close-cross-icon"></button>
+            <img src="./img/icons/galochka.jpg" alt="success" class="galochka">
+                <p class="modal-success">
+                    Спасибо,ожидайте ответ Макса
+                </p>
+        </div>
+    </div>
+</body>
+</html>
